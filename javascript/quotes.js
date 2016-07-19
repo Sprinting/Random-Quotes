@@ -2,7 +2,7 @@
 //new version
 
 
-var Qurl="http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=30&_jsonp=";
+var Qurl="https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=30&_jsonp=";
 function getNewQuote(url)
 {
   return new Promise((resolve,reject) => {
