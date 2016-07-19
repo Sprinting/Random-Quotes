@@ -1,0 +1,149 @@
+div.fill-screen
+{
+  margin:0;
+  padding: 0;
+  background-color: black;
+  min-height: 100vh;
+  border-bottom: 10px solid silver;
+  z-index: 1;
+  overflow: hidden;
+}
+
+div.navbar-main
+{
+  font-size: 300%;
+  font-family: monospace;
+  color: black;
+  margin:0;
+  position: fixed;
+  bottom:0px;
+  width: 100%;
+  min-height: 10% ;
+  background-color: white;
+  right:0px;
+
+}
+
+div.social
+{
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0px;
+
+  height: 95%;
+  //background-color: black;
+}
+
+div.quote-box{
+  position:relative;
+  margin :0;
+  padding: 0;
+  top:0px;
+  left:0px;
+  border: 3px solid silver;
+  border-top:none;
+  min-height: 100px;
+  background-color: transparent;
+
+
+}
+div.heading
+{
+  font-size: 300%;
+  font-family: 'Amatic SC',monospace;
+  font-style: normal;
+  font-weight: 900;
+  color:grey;
+  margin-bottom: 100px;
+}
+
+div.quote-wrapper
+{
+ border-bottom:3px solid black;
+ overflow: hidden;
+ position: relative;
+}
+
+div.control
+{
+  //float:right;
+  position: absolute;
+  right:0;
+  bottom:0;
+  height: 95%;
+  cursor:pointer;
+}
+
+
+span.control
+{
+  color:;
+  font-size: 25%;
+  display: block;
+  text-align: center;
+  //text-decoration: underline;;
+}
+
+span:hover
+{
+
+  font-size: 35%;
+
+}
+
+
+div.quote-author
+{
+  color:grey;
+  font-size: 120%;
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  font-weight: bold;
+  font-family: 'Amatic SC';
+  font-stretch: extra-expanded;
+}
+
+div.quote
+{
+  font-family: 'space mono';
+  font-size: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+  word-wrap: break-word;
+  padding: 5px;
+  color:white;
+  font-style: oblique;
+
+
+
+}
+
+div.comma{
+  background-color:grey;
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 100%;
+}
+
+
+div.comma.bottom
+{
+  background-color: blue;
+  position: absolute;
+  bottom:20px;
+  right:15px;
+}
+
+div.comma.top
+{
+  background-color: red;
+  position: absolute;
+  top:10px;
+  left:5px;
+}
+
+
+.
