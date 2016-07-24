@@ -38,7 +38,7 @@ function requestQuote()
 
 var quote_content;
 
-$(document).ready(function()
+window.onload=function()
 {
 
     var uniqueuri=Math.random()*(30-1+1);
@@ -69,4 +69,4 @@ $(document).ready(function()
     })
 
 
-});
+};
